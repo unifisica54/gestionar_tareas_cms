@@ -1,0 +1,88 @@
+<!-- HEADER -->
+<header>
+    <!-- TOP HEADER -->
+    <div id="top-header"></div>
+    <!-- /MAIN HEADER -->
+</header>
+<!-- /HEADER -->
+
+<!-- NAVIGATION -->
+<div id="menu-nav"></div>
+<!-- /NAVIGATION -->
+
+<!-- SECTION -->
+<div class="section">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <div class="col-md-12 col-xs-6">
+                <div class="section-title">
+                    <h3 class="title">LISTA DE TAREAS</h4>
+                </div>
+
+                <div class="products-widget-slick" data-nav="#slick-nav-3">
+
+                    <div class="col-md-8">
+                        <input class="input" id="search" type="text" placeholder="titulo" hidden>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>DNI</th>
+                                    <th>TITULO</th>
+                                    <th>DESCRIPCION</th>
+                                    <th>FECHA VENCIMIENTO</th>
+                                    <th>ESTADO</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody id="tabla-tarea"></tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-4">
+                        <div id="review-form">
+                            <div class="review-form">
+                                <div class="product-options m-1">
+                                    <label>ID</label>
+                                    <input class="input" id="id" type="text" placeholder="id" disabled>
+                                </div>
+                                <div class="product-options m-1">
+                                    <label>DNI</label>
+                                    <input class="input" id="dni" type="text" placeholder="dni">
+                                </div>
+                                <div class="product-options m-1">
+                                    <label>Titulo</label>
+                                    <input class="input" id="titulo" type="text" placeholder="titulo">
+                                </div>
+                                <div class="product-options m-1">
+                                    <label>Descripcion</label>
+                                    <input class="input" id="descripcion" type="text" placeholder="descripcion">
+                                </div>
+                                <div class="product-options m-1">
+                                    <label>Fecha vencimiento</label>
+                                    <input class="input" id="fecha_vencimiento" type="date" placeholder="fecha">
+                                </div>
+                                <div class="product-options m-1">
+                                    <label>Estado</label>
+                                    <select class="input-select" id="estado_id">
+                                        <option value="0">-- seleccionar --</option>
+                                        <option value="1">pendiente</option>
+                                        <option value="2">progreso</option>
+                                        <option value="3">completo</option>
+                                    </select>
+                                </div>
+                                <button class="primary-btn" id="grabar">Grabar</button>
+                                <button class="primary-btn" id="limpiar">limpiar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Reviews -->
+                </div>
+            </div>
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</div>
+<!-- /SECTION -->

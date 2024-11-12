@@ -1,0 +1,12 @@
+.detalle{
+    color: #ffffff;
+    font-weight: 500;
+    -webkit-transition: 0.2s color;
+    transition: 0.2s color;
+  }
+  
+  .detalle:hover, .detalle:focus {
+    color: #ffffff;
+    text-decoration: none;
+    outline: none;
+  }
